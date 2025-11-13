@@ -20,7 +20,7 @@ const rollNumbers: GenericArray<number> = [4, 7, 11];
 const isEligibleList: GenericArray<boolean> = [true, false, true];
 
 type User = { name: string; age: number };
-
+//generic with type alias 
 const userList: GenericArray<User> = [
   {
     name: "Mr. X",
